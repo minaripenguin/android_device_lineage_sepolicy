@@ -11,3 +11,5 @@ parallel                                  u:object_r:parallel_space_manager_serv
 
 # Linearmotor Vibrator
 linearmotor                               u:object_r:linearmotor_vibrator_service:s0
+
+pocket                                    u:object_r:pocket_service:s0
