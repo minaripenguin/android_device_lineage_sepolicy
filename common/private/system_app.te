@@ -8,3 +8,6 @@ hal_client_domain(system_app, hal_lineage_touch)
 
 # Allow SetupWizard to set recovery update prop
 set_prop(system_app, recovery_update_prop)
+
+# Allow settings to set some system props
+set_prop(system_app, exported_system_prop)
