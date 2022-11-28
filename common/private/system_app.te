@@ -11,3 +11,6 @@ set_prop(system_app, recovery_update_prop)
 
 # Allow settings to set some system props
 set_prop(system_app, exported_system_prop)
+
+# Zram
+r_dir_file(system_app, sysfs_zram)

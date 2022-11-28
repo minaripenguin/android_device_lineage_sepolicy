@@ -19,3 +19,6 @@ hal_client_domain(platform_app, hal_lineage_touch)
 # Allow systemui to read/set system boost props
 set_prop(platform_app, system_prop);
 get_prop(platform_app, system_prop);
+
+# Allow platform_app to access zram nodes
+r_dir_file(platform_app, sysfs_zram)
